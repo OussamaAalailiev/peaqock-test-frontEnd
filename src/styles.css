@@ -1,1 +1,431 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+.container{
+  /*width: 80%;*/
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+}
+.footer--container{
+  /*width: 80%;*/
+  /*margin: auto;*/
+}
+/*header{ THIS DISABLE THE RESPONSIVENESS OF THE WEBSITE! */
+/*  padding-top: 1.8rem;*/
+/*  min-height: 4.5rem;*/
+/*  border: lightgray 0.1rem solid;*/
+/*}*/
+
+.white__Link{
+  text-transform: uppercase;
+  color: #fff;
+}
+header li:hover{
+  font-weight: bold;
+  background-color: orangered;
+}
+#showcase{
+  min-height: 390px;
+  background: url("./assets/images/shipping2.jpg") no-repeat;
+  /*text-align: justify-all;*/
+}
+#showcase p{
+  font-size: 0.8rem;
+}
+#news--letter{
+  padding: 1rem;
+  /*color: #fff;*/
+  background-color: #fff;
+}
+
+#news--letter h1{
+  float: left;
+}
+#news--letter form{
+  float: right;
+  margin-top: 1rem;
+  flex-flow: row wrap;
+  /* This bit draws the box around it */
+  /*border:1px solid grey;*/
+  border:1px solid lightgray;
+  /* I've used padding so you can see the edges of the elements. */
+  padding:2px;
+  width: 33%;
+
+  border-radius: 20px;
+  background-color: white;
+}
+#news--letter input{
+  border-radius: 20px;
+  width: 67%;
+  /*height: 2rem;*/
+  /* Tell the input to use all the available space */
+  /*flex-grow:2;*/
+  /* And hide the input's outline, so the form looks like the outline */
+  border:none;
+}
+.mySectionForm{
+  /*display: block;*/
+  text-align: right;
+}
+.button--subscribe{
+  border: none;
+  width: 28%;
+  height: 1.8rem;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #70a288;
+  color: #fff;
+}
+.button--discoverNow{
+  border: none;
+  width: 28%;
+  height: 1.8rem;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #70a288;
+  color: #fff;
+}
+.button--discoverNow:hover{
+  border: none;
+  width: 30%;
+  height: 1.8rem;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #527c6a;
+  color: #fff;
+  font-weight: bold;
+}
+.button--learnMore{
+  border: none;
+  width: 28%;
+  height: 1.8rem;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgba(8, 73, 43, 0.75);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 420;
+}
+.button--learnMore:hover{
+  border: none;
+  width: 30%;
+  height: 1.8rem;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgba(5, 59, 34, 0.75);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.button--learnMore--white{
+  border: none;
+  width: 35%;
+  /*height: 1.8rem;*/
+  height: 1rem;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #fff;
+  color: rgba(8, 73, 43, 0.75);
+  text-transform: uppercase;
+  font-weight: 420;
+  padding: 1.2rem;
+}
+.button--learnMore--white:hover{
+  border: none;
+  width: 38%;
+  height: 1.8rem;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #dccaca;
+  color: rgba(8, 73, 43, 0.75);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.button--packageDetails{
+  border: none;
+  width: 25%;
+  height: 1.8rem;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgba(205, 238, 222, 0.75);
+  color: rgba(5, 58, 33, 0.75);
+  text-transform: uppercase;
+  font-weight: 550;
+}
+.button--packageDetails:hover{
+  border: none;
+  width: 28%;
+  height: 1.8rem;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgba(205, 238, 222, 0.75);
+  color: rgba(3, 44, 24, 0.75);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.button--support{
+  border: none;
+  /*width: 35%;*/
+  height: 1.8rem;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #e3cb35;
+  color: #fff;
+}
+.button--support:hover{
+  border: none;
+  /*width: 35%;*/
+  height: 1.8rem;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #b69d08;
+  color: #fff;
+  font-weight: bold;
+}
+.floatSupportBtn--UpperLeft{
+  float: right;
+  padding-top: 1rem;
+}
+.newsletter--h1{
+  color: black;
+  text-transform: uppercase;
+  font-size: larger;
+}
+
+/*
+  Boxes:
+ */
+.boxes{
+  margin-top: 1.5rem;
+}
+.footer--boxes{
+  /*margin-top: 0.2rem;*/
+}
+.box{
+  float: left;
+  width: 50%;
+}
+.float--right{
+  float: right;
+  width: 15%;
+  display: inline-block;
+  margin: auto;
+}
+.float--center{
+  display: inline-block;
+  margin:0 auto;
+  /*text-align: center;*/
+  width: 50%;
+}
+.float--left{
+  /*border: 1px solid gold;*/
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: auto;
+  background-color: #e3dbdb;
+}
+
+.gold--text--bold{
+  font-weight: bold;
+  place-items: center;
+}
+.para--thin{
+  font-size: smaller;
+
+}
+.box--product--fees{
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between;
+}
+.boxCompanyStats{
+  float: left;
+  width: 20%;
+  margin-left: 0.3rem;
+}
+.boxCompanyStats--footer{
+  float: left;
+  width: 30%;
+  margin-left: 1.5rem;
+}
+.box--centered{
+  text-align: center;
+}
+#companyStats{
+  background-color: #c7c5c5;
+}
+
+form:hover {
+  box-shadow: 3px 3px 3px 1px grey;
+}
+
+/*
+  Media:
+*/
+@media (max-width: 768px) {
+  .totalHeader, header nav, header nav li{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  #showcase .box{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  #news--letter form{
+    /*float: none;*/
+    text-align: center;
+    flex-flow: row wrap;
+    border:1px solid lightgray;
+    padding:0;
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+  }
+  .box{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  .boxCompanyStats{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .boxCompanyStats--footer{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .button--discoverNow{
+    border: none;
+    width: 50%;
+    height: 1.8rem;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #70a288;
+    color: #fff;
+  }
+  .button--learnMore{
+    border: none;
+    width: 50%;
+    height: 1.8rem;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(8, 73, 43, 0.75);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 420;
+  }
+  .button--learnMore--white{
+    border: none;
+    width: 50%;
+    height: 1.8rem;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #fff;
+    color: rgba(8, 73, 43, 0.75);
+    text-transform: uppercase;
+    font-weight: 420;
+
+  }
+  .button--packageDetails{
+    border: none;
+    width: 60%;
+    height: 1.8rem;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(205, 238, 222, 0.75);
+    color: rgba(5, 58, 33, 0.75);
+    text-transform: uppercase;
+    font-weight: 550;
+  }
+  .button--discoverNow:hover{
+    border: none;
+    width: 54%;
+    height: 1.8rem;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #527c6a;
+    color: #fff;
+    font-weight: bold;
+  }
+  .button--learnMore:hover{
+    border: none;
+    width: 54%;
+    height: 1.8rem;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(5, 59, 34, 0.75);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .button--learnMore--white:hover{
+    border: none;
+    width: 54%;
+    height: 1.8rem;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #dccaca;
+    color: rgba(8, 73, 43, 0.75);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .button--packageDetails:hover{
+    border: none;
+    width: 64%;
+    height: 1.8rem;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(205, 238, 222, 0.75);
+    color: rgba(3, 44, 24, 0.75);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  #news--letter h1{
+    float: none;
+    text-align: center;
+  }
+  .imageWidth{
+    float: none;
+    min-width: 200px;
+    width: 100%;
+    text-align: center;
+  }
+  .float--center{
+    display: inline-block;
+    margin:0 auto;
+    /*text-align: center;*/
+    width: 25%;
+  }
+  .float--right{
+    float: right;
+    padding-left: 1.5rem;
+    width: 12%;
+    display: inline-block;
+    margin: auto;
+  }
+  form:hover {
+    box-shadow: 3px 3px 3px 1px grey;
+    margin-bottom: 1.5rem;
+  }
+}
+
+
+
+

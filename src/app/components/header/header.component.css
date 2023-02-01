@@ -1,0 +1,37 @@
+.header--color--display{
+  background-color: #70a288;
+  /*position: fixed;*/
+  /*color: white;*/
+  width: 100%;
+  /*top: 0%;*/
+  /*padding: 0.8rem;*/
+}
+
+nav{
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.far--left{
+  float: left;
+  padding: 0.5rem;
+}
+.far--right{
+  float: right;
+  margin-top: 1.5rem;
+}
+
+li {
+  display: inline-flex;
+  padding: 0.5rem;
+
+}
+/*ul {*/
+/*  list-style-type: none;*/
+/*}*/
+
+a{
+  text-decoration: none;
+  /*color: white;*/
+}

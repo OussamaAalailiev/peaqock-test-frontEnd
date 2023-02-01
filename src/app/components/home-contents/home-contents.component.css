@@ -1,0 +1,200 @@
+
+/*.inlineElement {*/
+/*  display: inline;*/
+/*  !*margin: 0 auto;*!*/
+/*}*/
+
+/*.containerOfCompanyStats{*/
+/*  display: flex;*/
+/*  flex-wrap: wrap;*/
+/*}*/
+.white--color{
+  color: #fff;
+}
+.blockElement{
+  display: block;
+}
+
+.rectangle--button--search--green{
+  background-color: rgba(16, 103, 63, 0.75);
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  height: 38px;
+  width: 144px;
+}
+.rectangle--button--search--green:hover{
+  background-color: rgba(8, 73, 43, 0.75);
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  height: 41px;
+  width: 148px;
+  font-weight: bold;
+}
+.green--text{
+  color: rgba(16, 103, 63, 0.75);
+}
+.green--text--icon{
+  background-color: rgba(16, 103, 63, 0.75);
+  border-radius: 1rem;
+}
+
+.rectangle--button--search--blue{
+  background-color: rgba(37, 141, 215, 0.81);
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  height: 38px;
+  width: 144px;
+}
+.rectangle--button--search--blue:hover{
+  background-color: rgba(37, 141, 215, 0.81);
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  height: 41px;
+  width: 148px;
+  font-weight: bold;
+}
+.blue--text{
+  color: rgba(37, 141, 215, 0.81);
+}
+.blue--text--icon{
+  background-color: rgba(37, 141, 215, 0.81);
+  border-radius: 1rem;
+}
+
+.rectangle--button--search--gold{
+  background-color: rgba(181, 187, 20, 0.81);
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  height: 38px;
+  width: 144px;
+}
+.rectangle--button--search--gold:hover{
+  background-color: rgba(181, 187, 20, 0.81);
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  height: 41px;
+  width: 148px;
+  font-weight: bold;
+}
+.gold--text{
+  color: rgba(181, 187, 20, 0.81);
+}
+.gold--text--icon{
+  float: left;
+  background-color: rgba(181, 187, 20, 0.81);
+  border-radius: 1rem;
+}
+
+.rectangle--button--search--platinum{
+  background-color: rgba(189, 58, 224, 0.81);
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  height: 38px;
+  width: 144px;
+}
+.rectangle--button--search--platinum:hover{
+  background-color: rgba(189, 58, 224, 0.81);
+  border-radius: 4px;
+  border-style: none;
+  color: white;
+  height: 41px;
+  width: 148px;
+  font-weight: bold;
+}
+.platinum--text{
+  color: rgba(189, 58, 224, 0.81);
+}
+.platinum--text--icon{
+  background-color: rgba(189, 58, 224, 0.81);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.align--bottom{
+  margin-top: 10rem;
+}
+.paddingLeft{
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .rectangle--button--search--gold{
+    background-color: rgba(181, 187, 20, 0.81);
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    height: 38px;
+    width: 134px;
+    /*text-align: center;*/
+  }
+  .rectangle--button--search--gold:hover{
+    background-color: rgba(181, 187, 20, 0.81);
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    height: 41px;
+    width: 138px;
+    font-weight: bold;
+  }
+  .rectangle--button--search--green{
+    background-color: rgba(16, 103, 63, 0.75);
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    height: 38px;
+    width: 134px;
+  }
+  .rectangle--button--search--green:hover{
+    background-color: rgba(8, 73, 43, 0.75);
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    height: 41px;
+    width: 138px;
+    font-weight: bold;
+  }
+  .rectangle--button--search--blue{
+    background-color: rgba(37, 141, 215, 0.81);
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    height: 38px;
+    width: 134px;
+  }
+  .rectangle--button--search--blue:hover{
+    background-color: rgba(37, 141, 215, 0.81);
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    height: 41px;
+    width: 138px;
+    font-weight: bold;
+  }
+  .rectangle--button--search--platinum{
+    background-color: rgba(189, 58, 224, 0.81);
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    height: 38px;
+    width: 134px;
+  }
+  .rectangle--button--search--platinum:hover{
+    background-color: rgba(189, 58, 224, 0.81);
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    height: 41px;
+    width: 138px;
+    font-weight: bold;
+  }
+}
+
+
+
+
