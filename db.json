@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1, "username": "Ahmed", "email": "lorem@hghg.com", "countryOfResidency": "Morocco",
+      "company": "Company", "registrationDate": "December 21, 2021", "action": true
+    },
+    {
+      "id": 2, "username": "Karl", "email": "lorem@hghg.com", "countryOfResidency": "Morocco",
+      "company": "Company Name", "RegistrationDate": "December 21, 2021", "Action": true
+    },
+    {
+      "id": 3, "username": "Sarah", "email": "lorem@hghg.com", "countryOfResidency": "Morocco",
+      "company": "Company Name", "RegistrationDate": "December 21, 2021", "Action": true
+    },
+    {
+      "id": 4, "username": "Micha", "email": "lorem@hghg.com", "countryOfResidency": "Morocco",
+      "company": "Company Name", "RegistrationDate": "December 21, 2021", "Action": true
+    },
+    {
+      "id": 5, "username": "Komogamo", "email": "lorem@hghg.com", "countryOfResidency": "Morocco",
+      "company": "Company Name", "RegistrationDate": "December 21, 2021", "Action": true
+    },
+    {
+      "id": 6, "username": "Denis", "email": "lorem@hghg.com", "countryOfResidency": "Morocco",
+      "company": "Company Name", "RegistrationDate": "December 21, 2021", "Action": true
+    },{
+      "id": 7, "username": "Aicha", "email": "lorem@hghg.com", "countryOfResidency": "Morocco",
+      "company": "Company Name", "RegistrationDate": "December 21, 2021", "Action": true
+    },
+    {
+      "id": 8, "username": "Piskovic", "email": "lorem@hghg.com", "countryOfResidency": "Morocco",
+      "company": "Company Name", "RegistrationDate": "December 21, 2021", "Actions": true
+    },
+    {
+      "id": 9, "username": "Xhaka", "email": "lorem@hghg.com", "countryOfResidency": "Morocco",
+      "company": "Company Name", "RegistrationDate": "December 21, 2021", "Actions": true
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+<section class="container">
+  <section class=" displayCenteredFlexed">
+
+    <form action="" >
+      <span class="iconBeforeInput">Icon</span>
+      <input class="myInput1" type="text" placeholder="Search by keyword">
+      <span class="padding--right"></span>
+      <button type="submit" class="searchUsersButton">Search</button>
+    </form>
+  </section>
+  <br><br>
+
+  <section class="table--container">
+    <table class="content-table">
+      <thead>
+      <tr>
+        <th>User</th><th>Email</th><th>Country of Residence</th><th>Company</th>
+        <th>Registration Date</th><th>Actions</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{user.username}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.countryOfResidency}}</td>
+        <td>{{user.company}}</td>
+        <td>{{user.registrationDate}}</td>
+        <td>{{user.actions}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </section>
+
+</section>
+<section class="container">
+  <section class="boxes">
+    <section class=" displayCenteredFlexed">
+
+      <form action="" >
+        <span class="iconBeforeInput">Icon</span>
+        <input class="myInput1 " type="text" placeholder="Search by keyword">
+        <span class="padding--right"></span>
+        <button type="submit" class="searchUsersButton">Search</button>
+      </form>
+    </section>
+    <section class="boxes"></section>
+    <section class=" displayCenteredFlexed2">
+
+      <form action="" >
+        <span class="iconBeforeInput">Icon</span>
+        <input class="myInput1" type="text" placeholder="Search by keyword">
+        <span class="padding--right"></span>
+        <button type="submit" class="searchUsersButton">Search</button>
+      </form>
+    </section>
+    <section class="boxes"></section>
+    <section class="mySecondContainer--form ">
+      <form action="" id="formSearch2">
+        <span class="iconBeforeInput2 ">Icon</span>
+        <input class="myInputDateSelect marginLeft myInput2" type="date" placeholder="Search by date">
+        <span class="padding--right"></span>
+        <select name="list1-select" id="list1" class="myInputDateSelect marginLeft boxSecondInput--box">
+          <option value="">--List1--</option>
+          <option value="Java">Java</option>
+          <option value="C">C</option>
+          <option value="Python">Python</option>
+        </select>
+        <span class="padding--right"></span>
+        <select name="list2-select" id="list2" class="myInputDateSelect marginLeft marginRight--far boxSecondInput--box">
+          <option value="">--List2--</option>
+          <option value="Angular">Angular</option>
+          <option value="Vue">Vue</option>
+          <option value="ReactJS">ReactJS</option>
+        </select>
+        <span class="padding--right "></span>
+        <button type="submit" class="searchUsersButton searchUsersButton4Responsive boxSecondInput--box">Search</button>
+      </form>
+    </section>
+  </section>
+</section>
+<section class="container">
+  <section class="boxes">
+
+    <section class="boxes"></section>
+    <section class="mySecondContainer--form ">
+      <form action="" id="formSearch3">
+        <span class="iconBeforeInput2 ">Icon</span>
+        <input class="myInputDateSelect marginLeft myInput2" type="date" placeholder="Search by date">
+        <span class="padding--right"></span>
+
+        <select name="list1-select" id="list3" class="myInputDateSelect marginLeft boxSecondInput--box" >
+          <option value="">--List1--</option>
+          <option value="Java">Java</option>
+          <option value="C">C</option>
+          <option value="Python">Python</option>
+        </select>
+        <span class="padding--right"></span>
+        <select name="list2-select" id="list4" class="myInputDateSelect marginLeft marginRight--far boxSecondInput--box">
+          <option value="">--List2--</option>
+          <option value="Angular">Angular</option>
+          <option value="Vue">Vue</option>
+          <option value="ReactJS">ReactJS</option>
+        </select>
+        <span class="padding--right "></span>
+        <button type="submit" class="searchUsersButton searchUsersButton4Responsive boxSecondInput--box">Search</button>
+      </form>
+    </section>
+  </section>
+</section>
+
+<!--<section class="boxes">-->
+<!--  <section class="box&#45;&#45;centered">-->
+<!--    <button type="button" class="button&#45;&#45;packageDetails" (click)="openUserDialogue()">Create user</button>-->
+<!--  </section>-->
+<!--</section>-->

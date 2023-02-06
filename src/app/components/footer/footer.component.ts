@@ -12,15 +12,13 @@ export class FooterComponent implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
-    //we subscribe to dataService's Subject to get whatever data from it:
-    // this.dataService.SubjOfElemHeight.subscribe(data=>{
-    //   this.scrollDataGotten = data;
-    // });
+
   }
 
-  // scrollToTop() {
-  //   // @ts-ignore
-  //   this.scrollDataGotten?.nativeElement.scrollTop=0;
-  //   this.dataService.getElemHeightToSubject(this.scrollDataGotten);
-  // }
+  scrollToTop() {
+    // @ts-ignore
+    this.scrollDataGotten?.nativeElement.scrollTop=0;
+    this.dataService.getElemHeightToSubject(this.scrollDataGotten);
+    //this.dataService.getElemHeightToSubject(this.scrollDataGotten);
+  }
 }

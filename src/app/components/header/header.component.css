@@ -1,37 +1,141 @@
-.header--color--display{
+/* NEW CSS COLLAPSE MENU: */
+*{
+  text-decoration: none;
+  text-transform: capitalize;
+}
+header{
+  position: fixed;
+  top: 0; left: 0; right: 0;
   background-color: #70a288;
-  /*position: fixed;*/
-  /*color: white;*/
-  width: 100%;
-  /*top: 0%;*/
-  /*padding: 0.8rem;*/
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  padding: 10px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
 }
-
-nav{
-  /*display: flex;*/
-  /*flex-wrap: wrap;*/
-  padding-left: 0;
-  margin-bottom: 0;
+header .logo{
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
 }
-.far--left{
+header .navbar ul{
+  list-style: none;
+}
+header .navbar ul li{
+  position: relative;
   float: left;
-  padding: 0.5rem;
 }
-.far--right{
-  float: right;
-  margin-top: 1.5rem;
+header .navbar ul li a{
+  font-size: 15px;
+  padding: 20px;
+  color: white;
+  display: block;
+}
+header .navbar ul li a:hover{
+  background-color: white;
+  color: #70a288;
+}
+header .navbar ul li ul{
+  position: absolute;
+  background-color: #70a288;
+  left: 0;
+  width: 200px;
+  display: none;
+}
+header .navbar ul li ul li{
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+}
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+  display: initial;
+}
+#menu-bar{
+  display: none;
+}
+header label{
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+.backgroundColor{
+  background-color: white;
+}
+header .navbar ul li ul li{
+  background-color: #597265;
 }
 
-li {
-  display: inline-flex;
-  padding: 0.5rem;
+@media(max-width: 990px){
+  header{
+    padding: 3px;
+  }
+  header label{
+    display: initial;
+  }
+  header .navbar{
+    position: absolute;
+    top: 100%; left: 0; right: 0;
+    background: #70a288;
+    border-top: 1px solid rgba(0,0,0,.1);
+    display: none;
+  }
+  header .navbar ul li{
+    width: 100%;
+  }
+  header .navbar ul li ul{
+    position: relative;
+    width: 100%;
+  }
+  /*header .navbar ul li ul li{*/
+  /*  background-color: #597265;*/
+  /*}*/
+  #menu-bar:checked ~ .navbar {
+    display: initial;
+  }
 
 }
-/*ul {*/
-/*  list-style-type: none;*/
+
+
+/* OLD CSS WITHOUT COLLAPSE MENU: */
+
+/*.header--color--display{*/
+/*  background-color: #70a288;*/
+/*  !*position: fixed;*!*/
+/*  !*color: white;*!*/
+/*  width: 100%;*/
+/*  !*top: 0%;*!*/
+/*  !*padding: 0.8rem;*!*/
 /*}*/
 
-a{
-  text-decoration: none;
-  /*color: white;*/
-}
+/*nav{*/
+/*  !*display: flex;*!*/
+/*  !*flex-wrap: wrap;*!*/
+/*  padding-left: 0;*/
+/*  margin-bottom: 0;*/
+/*}*/
+/*.far--left{*/
+/*  float: left;*/
+/*  padding: 0.5rem;*/
+/*}*/
+/*.far--right{*/
+/*  float: right;*/
+/*  margin-top: 1.5rem;*/
+/*}*/
+
+/*li {*/
+/*  display: inline-flex;*/
+/*  padding: 0.5rem;*/
+
+/*}*/
+/*!*ul {*!*/
+/*!*  list-style-type: none;*!*/
+/*!*}*!*/
+
+/*a{*/
+/*  text-decoration: none;*/
+/*  !*color: white;*!*/
+/*}*/
+
+

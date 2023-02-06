@@ -1,0 +1,262 @@
+.displayCenteredFlexed{
+  /*display: inline-block;*/
+  text-align: center;
+  padding-top: 7rem;
+}
+.displayCenteredFlexed2{
+  /*display: inline-block;*/
+  text-align: center;
+  padding-top: 1rem;
+}
+/*input{*/
+/*  width: 55%;*/
+/*  border-radius: 0.5rem;*/
+/*  height: 2rem;*/
+/*}*/
+.myInput1{
+  width: 55%;
+  border-radius: 0.5rem;
+  height: 2rem;
+}
+.myInput2{
+  width: 55%;
+  border-radius: 0.5rem;
+  height: 2rem;
+}
+.myInputDateSelect{
+  width: 15%;
+  border-radius: 0.5rem;
+  height: 1.5rem;
+}
+.marginLeft{
+  margin-left: 1.5rem;
+}
+
+.marginRight--far{
+  margin-right: 3rem;
+}
+.iconBeforeInput{
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+.iconBeforeInput2{
+  margin-left: 5rem;
+}
+.searchUsersButton{
+  border: none;
+  width: 18%;
+  height: 2rem;
+  justify-content: center;
+  border-radius: 1rem;
+  background-color: #70a288;
+  color: #fff;
+}
+.padding--right{
+  padding-right: 1rem;
+}
+.content-table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9rem;
+  min-width: 390px;
+  border-radius: 0.33rem 0.33rem 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table--container{
+  width: 85%;
+  float: right;
+}
+.content-table thead tr{
+  background-color: #f4f4f4;
+  text-align: left;
+  color: #b2adad;
+  font-weight: bold;
+}
+/*Add paddings between the cells 'th' & 'td': */
+.content-table th,
+.content-table td{
+  padding: 0.9rem 0.7rem;
+}
+/*Target every row in table body: */
+.content-table tbody tr{
+  /*border-bottom: 1px solid #b2adad;*/
+}
+/*Target every row(odd) in table body to have a dark grey color: */
+.content-table tbody tr:nth-of-type(odd){
+  background-color: #e3e1e1;
+}
+.mySecondContainer--form{
+  width: 90%;
+  text-align: center;
+}
+.example-additional-selection {
+  opacity: 0.75;
+  font-size: 0.75em;
+}
+
+@media (max-width: 800px) {
+  thead{
+    display: none;
+  }
+  td{
+    display: block;
+  }
+  td:first-child::before{
+    content: "Username:";
+    color: #b2adad;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  td:nth-child(2)::before{
+    content: "Email:";
+    color: #b2adad;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  td:nth-child(3)::before{
+    content: "Country:";
+    color: #b2adad;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  td:nth-child(4)::before{
+    content: "Company:";
+    color: #b2adad;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  td:nth-child(5)::before{
+    content: "Registration Date:";
+    color: #b2adad;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  td:nth-child(6)::before{
+    content: "Actions:";
+    color: #b2adad;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  td{
+    text-align: right;
+  }
+  td::before{
+    float: left;
+    /*margin-right: 3rem;*/
+  }
+  .boxSecondInput--box{
+    /*float: none;*/
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+
+  }
+  .myInput2{
+    margin-top: 3rem;
+    width: 65%;
+    border-radius: 0.5rem;
+    height: 2rem;
+    text-align: center;
+  }
+  .iconBeforeInput2{
+    margin-left: 0;
+  }
+  .searchUsersButton4Responsive{
+    border: none;
+    width: 33%;
+    height: 2rem;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #70a288;
+    color: #fff;
+  }
+  .marginRight--far{
+    margin-right: 0rem;
+  }
+}
+@media (max-width: 548px) {
+  thead{
+    display: none;
+  }
+  td{
+    display: block;
+  }
+  td:first-child::before{
+    content: "Username:";
+    color: #b2adad;
+    font-weight: bold;
+    /*margin-right: 1rem;*/
+  }
+  td:nth-child(2)::before{
+    content: "Email:";
+    color: #b2adad;
+    font-weight: bold;
+    margin-right: -2.8rem;
+  }
+  td:nth-child(3)::before{
+    content: "Country:";
+    color: #b2adad;
+    font-weight: bold;
+    /*margin-right: 1rem;*/
+  }
+  td:nth-child(4)::before{
+    content: "Company:";
+    color: #b2adad;
+    font-weight: bold;
+    margin-right: -2.9rem;
+  }
+  td:nth-child(5)::before{
+    content: "Register Date:";
+    color: #b2adad;
+    font-weight: bold;
+    margin-right: -6.5rem;
+  }
+  td:nth-child(6)::before{
+    content: "Actions:";
+    color: #b2adad;
+    font-weight: bold;
+    /*margin-right: 1rem;*/
+  }
+  td{
+    text-align: center;
+  }
+  td::before{
+    float: left;
+    /*margin-right: 3rem;*/
+  }
+  .boxSecondInput--box{
+    /*float: none;*/
+    width: 65%;
+    text-align: center;
+    padding-top: 0;
+  }
+  .searchUsersButton4Responsive{
+    border: none;
+    width: 33%;
+    height: 2rem;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #70a288;
+    color: #fff;
+  }
+}
+
+@media (max-width: 480px) {
+  /*input{*/
+  /*  width: 40%;*/
+  /*}*/
+  .myInput1{
+    width: 40%;
+  }
+
+}
+
+
+
+
+
+
+
